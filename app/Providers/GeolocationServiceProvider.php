@@ -21,7 +21,6 @@ class GeolocationServiceProvider extends ServiceProvider
             $satellite = new Satellite();
 
             return new Geolocation($map, $satellite);
-//            return 'aaaaa';
         });
     }
 

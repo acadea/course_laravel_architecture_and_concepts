@@ -19,9 +19,8 @@ class Geolocation
      */
     private $satellite;
 
-    public function __construct(string $a, Map $map, Satellite $satellite)
+    public function __construct(Map $map, Satellite $satellite)
     {
-
         $this->map = $map;
         $this->satellite = $satellite;
     }
